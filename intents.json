@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Is anyone there?", "Good morning", "Namaste"],
+      "responses": ["Hello! Welcome to Sherpuri's Genius Bot.", "Hi there! Ready to help.", "Greetings! How can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "I am leaving", "Quit"],
+      "responses": ["Goodbye! Don't forget to study.", "See you later!", "Have a nice day!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who is your boss?", "Who created this?", "Who is Sherpuri?"],
+      "responses": ["I was created by Krish Sherpuri, a brilliant Python developer and NEET aspirant!"]
+    },
+    {
+      "tag": "botany",
+      "patterns": ["What is Botany?", "NEET help", "Biology question", "Plants"],
+      "responses": ["I love Botany! Ask me about 'Sexual Reproduction in Flowering Plants' or 'Organisms and Population'."]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": ["Why do programmers prefer dark mode? Because light attracts bugs!", "I would tell you a UDP joke, but you might not get it."]
+    },
+    {
+      "tag": "options",
+      "patterns": ["What can you do?", "Help", "Features", "Support"],
+      "responses": ["I can chat, search Wikipedia, help with Python code, or discuss Class 12 Botany!"]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": ["Who is", "What is", "Tell me about", "Search for", "Define"],
+      "responses": ["Searching Wikipedia..."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Current time", "Do you have the time?"],
+      "responses": ["Checking the clock..."]
+    }
+  ]
+}
